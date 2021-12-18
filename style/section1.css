@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  color: #393c41;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0 35px 0;
+  font-size: 10%;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  padding-top: 2%;
+}
+
+.expect {
+  display: flex;
+  position: relative;
+}
+
+.food {
+  flex: 0.5;
+  overflow: hidden;
+}
+
+.food img {
+  width: 65%;
+  height: 65%;
+  margin: 8% 0 0 20%;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+  border-radius: 4%;
+}
+
+.list {
+  flex: 0.5;
+  position: relative;
+}
+
+.list-group {
+  margin: 8% 8% 0 0;
+}
+.list-group a {
+  border: 0px rgba(0, 0, 0, 0);
+  padding-bottom: 3%;
+}
+ol {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+ol li {
+  margin-right: 40px;
+}
+
+.one {
+  padding-left: 5rem;
+  background-image: url(../images/1.jpg);
+  background-position: 0 0;
+  background-size: 5rem 5rem;
+  background-repeat: no-repeat;
+}
+
+.two {
+  padding-left: 5rem;
+  background-image: url(../images/2.jpg);
+  background-position: 0 0;
+  background-size: 5rem 5rem;
+  background-repeat: no-repeat;
+}
+
+.three {
+  padding-left: 5rem;
+  background-image: url(../images/3.jpg);
+  background-position: 0 0;
+  background-size: 5rem 5rem;
+  background-repeat: no-repeat;
+}
+
+.four {
+  padding-left: 5rem;
+  background-image: url(../images/4.jpg);
+  background-position: 0 0;
+  background-size: 5rem 5rem;
+  background-repeat: no-repeat;
+}
+/* COntact Me */
+.Contact-me {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../images/marbel.jpg);
+}
+
+.contact {
+  padding-top: 5%;
+}
+.contact p {
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  padding-top: 20px;
+}
+.contact button {
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 2%;
+  width: 10%;
+  height: 2.7rem;
+  font-size: 1rem;
+}
+.contact button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.button {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #000000;
+  padding: 5px 0;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo {
+  width: 180px;
+}
+
+.social-media {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a {
+  color: #ffffff;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+
+.social-media a:hover {
+  color: #4d4448;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-container {
+    max-width: 600px;
+  }
+  .right-col {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .left-col {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .btn {
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media screen and(max-width: 480px ) {
+  .brand img {
+    display: none;
+  }
+}
